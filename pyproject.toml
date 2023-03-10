@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-market-adquisitor-system"
+version = "0.1.0"
+description = ""
+authors = ["cameronmcnz <ignacio.ireta@outlook.com>"]
+readme = "README.md"
+packages = [{include = "data_market_adquisitor_system"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-coinmarketcap = "^0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
